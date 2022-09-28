@@ -19,15 +19,12 @@ def decode_word(word)
 end
 
 def decode_sentence(sentence)
-    my_sentence = ''
-    sentence.split('   ').each { |char| my_sentence += "#{decode_word(char)} " }
-    my_sentence
+  my_sentence = ''
+  sentence.split('   ').each { |char| my_sentence += "#{decode_word(char)} " }
+  my_sentence
 end
 
-puts decode_char('..-')
-puts decode_word('-.-. --- -- .')
-puts decode_sentence('..   .- --   -.-. --- -- .. -. --. ')
-puts decode_sentence('..   .- --   -.-. --- -- .. -. --. ')
+puts decode_char('.-')
 puts decode_sentence('-- -.--')
 puts decode_sentence('-- -.--   -. .- -- .')
 puts decode_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
