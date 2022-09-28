@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Decode-Morse
 
 > Description the project.
 In this project my partner @Ambrosegithub and i used ruby to decode morse code.
